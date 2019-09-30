@@ -28,7 +28,8 @@ extension NominalType {
     
 }
 
-@_silgen_name("swift_getFieldAt")
+//@_silgen_name("swift_getFieldAt")
+@_silgen_name("swift_getTypeByMangledNameInContext")
 private func getFieldAt(
     _ type: Any.Type,
     _ index: Int,
